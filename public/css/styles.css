@@ -1,0 +1,66 @@
+#hidden_div {
+    display: none;
+}
+.main-bg{
+    background-color: #FFF8F0;
+}
+.main-orange{
+    color: #FE724D;
+}
+.main-orange:hover{
+    color: #f83a06;
+}
+.bg-main-orange{
+    background: #FE724D !important;
+}
+.bg-main-orange:hover{
+    background: #ef5227 !important;
+}
+.myHr{
+    border: 1px;
+    height: 2px;
+    background: black;
+    background: linear-gradient(to right,  #FE724D 25%,black 25%);
+}
+.checkboxSize{
+    width: 23px !important;
+    height: 23px !important;
+}
+.sevenRem{
+    right: 7rem;
+}
+.imageHover:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+.icon{
+    margin-right: 5px;
+    display: none;
+}
+.loading{
+    background-color: #ef5227;
+    color: #eee;
+}
+.loading .icon{
+    display: inline-block;
+    color: #eee;
+}
+@media screen and (max-width: 900px){
+    .grid900{
+        grid-template-columns: repeat(1,minmax(0,1fr)) !important;
+    }
+}
+@media screen and (max-width: 640px){
+    .flexSmall{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.zoom-effect {
+    transition: transform 0.2s;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
